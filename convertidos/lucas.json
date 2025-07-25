@@ -1,0 +1,84 @@
+{
+  "nodes": [
+    {
+      "id": "start",
+      "type": "start",
+      "position": {
+        "x": -34.5,
+        "y": -6.5
+      },
+      "data": {
+        "title": "",
+        "cards": [],
+        "webhook": null
+      }
+    },
+    {
+      "id": "4b0547",
+      "type": "stack",
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "data": {
+        "title": "Mensagem Inicial",
+        "cards": [
+          {
+            "id": "389bac",
+            "nodeId": null,
+            "type": "input-menu",
+            "content": {
+              "title": "Mensagem Inicial",
+              "version": "1.0",
+              "disabled": false,
+              "timeout": false,
+              "timeout_type": "minutes",
+              "timeout_value": null,
+              "max_retry": false,
+              "max_retry_value": 3,
+              "message": "Bem vindo a Origin \n\nConteudo",
+              "options_type": "button",
+              "invalid_message": "Opção inválida!",
+              "options": [
+                {
+                  "id": "2dbe3f",
+                  "label": "cima",
+                  "description": null,
+                  "type": "QUICK_REPLY",
+                  "url": null
+                },
+                {
+                  "id": "0f4e85",
+                  "label": "meio",
+                  "description": null,
+                  "type": "QUICK_REPLY",
+                  "url": null
+                },
+                {
+                  "id": "d279ac",
+                  "label": "baixo",
+                  "description": null,
+                  "type": "QUICK_REPLY",
+                  "url": null
+                }
+              ]
+            }
+          }
+        ],
+        "webhook": null
+      }
+    }
+  ],
+  "edges": [
+    {
+      "id": "edge-start-4b0547",
+      "source": "start",
+      "target": "4b0547",
+      "sourceHandle": null,
+      "targetHandle": null,
+      "className": null,
+      "animated": false
+    }
+  ],
+  "tags": []
+}
